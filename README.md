@@ -2,7 +2,7 @@
 
 Screenshots with short descriptions of the projects.
 
-## 📖 Table of Contents
+## Table of Contents
 
 - C++ using Raylib graphics API
 - Java, java.awt and javax.swing
