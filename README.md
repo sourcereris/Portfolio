@@ -11,6 +11,8 @@ Screenshots with short descriptions of the projects.
 
 ## Java Projects
 
+## smth
+
 ### ArrowBasedOnMousePosition
 
 - **Tech**: Java SE  
