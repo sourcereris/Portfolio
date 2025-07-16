@@ -32,6 +32,6 @@ Randomly changes colors of the circle.
 ### GravitySim
 - **Screenshot**:  
 
-<img width="472" height="285" alt="image" src="https://github.com/user-attachments/assets/0054ab83-eedb-4716-b093-41cdeb1b949b" />
+<img width="777" height="516" alt="image" src="https://github.com/user-attachments/assets/0a08fef4-6fd3-4135-ae6d-7f9bfd40d13c" />
 
 Randomly changes colors of the circle.
