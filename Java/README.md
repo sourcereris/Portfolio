@@ -1,6 +1,4 @@
-# Portfolio
-
-Screenshots with short descriptions of the projects.
+# Screenshots with short descriptions of the projects.
 
 ## Java, java.awt and javax.swing
 
