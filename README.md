@@ -22,4 +22,16 @@ Screenshots with short descriptions of the projects.
 
 Program tracks mouse position, when pressed the polygon pointing to the center object is added to the array, then iterates and draws it on the screen.
 
+### ChangeColorAndLabel
+- **Screenshot**:  
+
 <img width="472" height="285" alt="image" src="https://github.com/user-attachments/assets/0054ab83-eedb-4716-b093-41cdeb1b949b" />
+
+Randomly changes colors of the circle.
+
+### GravitySim
+- **Screenshot**:  
+
+<img width="472" height="285" alt="image" src="https://github.com/user-attachments/assets/0054ab83-eedb-4716-b093-41cdeb1b949b" />
+
+Randomly changes colors of the circle.
