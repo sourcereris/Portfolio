@@ -8,7 +8,6 @@
 
 ### TileGrid
 
-- **Screenshot**:  
 <img src="https://github.com/user-attachments/assets/1af38438-21ec-4e4e-9f59-2cfca7c9342c" alt="Arrow pointing at mouse" width="600"/>
 
 This project creates a proceduraly generated ground using perlinNoise and image created in Grass project. Also project have implemented sprite animation.
