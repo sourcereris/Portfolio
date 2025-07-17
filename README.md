@@ -6,5 +6,5 @@ Screenshots with short descriptions of the projects.
 
 - C++ using Raylib graphics API
 - Java, java.awt and javax.swing
-- C++ and WinAPI
 - PyOpenGL
+- C++ and WinAPI
