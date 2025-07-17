@@ -3,8 +3,8 @@
 ## SpriteProgramming
   
 
-Extern file have header files for PerlinNoise that i used in one of the projeccts.
-Grass file creates an image, random 4 color pixel gradient that i used in the TileGrid project.
+- Extern file have header files for PerlinNoise that i used in one of the projeccts.
+- Grass file creates an image, random 4 color pixel gradient that i used in the TileGrid project.
 
 ### TileGrid
 
