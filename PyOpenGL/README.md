@@ -15,3 +15,7 @@ Small Python-based 3D demo built with Pygame and PyOpenGL that showcases basic r
 math concept for camera movement
 
 <img width="771" height="545" alt="image" src="https://github.com/user-attachments/assets/dcad2cd6-8cfc-4f45-943b-e22029890215" />
+
+Python implementation
+
+<img width="688" height="240" alt="image" src="https://github.com/user-attachments/assets/f0f90f33-b962-4e93-ba1a-63f5237c4e0a" />
