@@ -11,11 +11,3 @@ Small Python-based 3D demo built with Pygame and PyOpenGL that showcases basic r
 - Modular code organization, with clear separation across Main, Camera, Sun, Enemy, Gun, Bullet, RandomPos, LoadMesh, and Mesh components.
 
 ![ezgif com-video-to-gif-converter(1)](https://github.com/user-attachments/assets/af967830-85f9-46e7-ad9e-239208c92fcb)
-
-math concept for camera movement
-
-<img width="771" height="545" alt="image" src="https://github.com/user-attachments/assets/dcad2cd6-8cfc-4f45-943b-e22029890215" />
-
-Python implementation
-
-<img width="688" height="240" alt="image" src="https://github.com/user-attachments/assets/f0f90f33-b962-4e93-ba1a-63f5237c4e0a" />
