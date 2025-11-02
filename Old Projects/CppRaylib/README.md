@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/6093c0e9-48f7-4dae-a852-011ad803569d
 
 - **Short Video**:  
 
-https://github.com/user-attachments/assets/b8b5b6bb-e34f-42a7-a32a-e7e347acdc35
+https://github.com/user-attachments/assets/0a070fa4-fb0b-4471-826f-c16a2775eba5
 
 A simple geometric implementation representing a mechanical clock, using 2D rotation and transformation.
 
@@ -30,7 +30,7 @@ A simple geometric implementation representing a mechanical clock, using 2D rota
 
 - **Short Video**:  
 
-https://github.com/user-attachments/assets/0a070fa4-fb0b-4471-826f-c16a2775eba5
+https://github.com/user-attachments/assets/8a33c429-7a53-4664-ac44-24a3ae5cdc95
 
 A program that simulates gravity for objects placed around a central point.
 
@@ -44,9 +44,9 @@ Hexagons are arranged in a perfect grid; the size can be changed in real time.
 
 ### IdleBallClicker
 
-- **Short Video**:  
-
-https://github.com/user-attachments/assets/37524d7c-a494-403e-ba0c-5808d71fa187
+- **Short Video**:
+- 
+https://github.com/user-attachments/assets/2d48d00b-c080-4b2a-bd1f-f5c88e06e46a
 
 A simple idle game simulation: each time the ball touches the boundary, the score increases. A single button displays the ball price and adds another ball to the game.
 
