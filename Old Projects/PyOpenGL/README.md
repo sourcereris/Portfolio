@@ -10,4 +10,4 @@ Small Python-based 3D demo built with Pygame and PyOpenGL that showcases basic r
 - Physics-inspired motion, applying an inverse-distance gravitational pull from a central “Sun” object to floating shells (mass, force constant, integration).
 - Modular code organization, with clear separation across Main, Camera, Sun, Enemy, Gun, Bullet, RandomPos, LoadMesh, and Mesh components.
 
-https://github.com/user-attachments/assets/47acb2f6-a089-4941-9894-9ac9d3bafd88
+https://github.com/user-attachments/assets/1369adba-717b-404f-9d4d-4699302cb8c3
