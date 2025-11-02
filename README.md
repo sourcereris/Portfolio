@@ -24,7 +24,7 @@ My main contributions include:
 * **Procedural Tilemap Generation:** I developed the `MapGenerator` script, which procedurally builds the game world from multiple, sorted `Tilemap` layers. This system also handles the dynamic spawning of enemies and resources.
 * **Core Game Architecture:** I implemented the **`GameInitiator`** system, a persistent entry point that loads and manages all core systems (like the `SceneLoader` and `AudioManager`) to ensure they persist correctly across all scenes and prevent dependency errors.
 
-**[View the Full Project Page & Technical Overwiev](https://github.com/sourcereris/-_-_-/tree/main/Portfolio/Main%20Works/Unity)**
+**[View the Full Project Page & Technical Overwiev](https://github.com/sourcereris/Portfolio/tree/main/Main%20Works/Unity)**
 
 **[View the Source Code on GitHub](https://github.com/thameeeh/Toris/tree/main)**
 
@@ -44,9 +44,7 @@ All systems were built from scratch:
 * **Custom Animation System:** I developed a `KTileManager` to load sprite sheets and an `KSpriteAnimator` to handle frame timing, scaling, and mirroring.
 * **Gameplay Systems:** Implemented from-scratch physics, bullet logic, enemy spawning, and an AI-controlled companion that autonomously helps the player.
 
-**[View the Full Project Page & Technical Details](URL_TO_YOUR_WINAPI_PROJECT_PAGE)**
-
-**[View the Source Code on GitHub](URL_TO_YOUR_WINAPI_REPO)**
+**[View the Full Project Page & Technical Details](https://github.com/sourcereris/Portfolio/tree/main/Main%20Works/WinAPI%20Tower%20Defender)**
 
 ---
 
@@ -63,9 +61,9 @@ All systems were built from scratch:
 
 My repositories also contain a collection of my earlier projects and assignments from my studies. These explore various concepts in C++ (using Raylib) and Java.
 
-**[View My C++ Project Archive](URL_TO_YOUR_CPP_PROJECT_PAGE)**
+**[View My C++ Project Archive](https://github.com/sourcereris/Portfolio/tree/main/Old%20Projects/CppRaylib)**
 
-**[View My Java Project Archive](URL_TO_YOUR_JAVA_PROJECT_PAGE)**
+**[View My Java Project Archive](https://github.com/sourcereris/Portfolio/tree/main/Old%20Projects/Java)**
 
 
 
