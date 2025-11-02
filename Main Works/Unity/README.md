@@ -8,7 +8,7 @@ Outland Haven is a 2D action RPG, my 4th-year graduation project. As the sole sy
 
 ### Feature 1: Scalable Enemy AI State Machine
 
-https://github.com/user-attachments/assets/914dbbc4-0288-4115-9c9a-b9106ecf2649
+https://github.com/user-attachments/assets/59c5ad6a-3aa6-4112-9ff3-8277883c5c42
 
 Implementation of a flexible, event-driven state machine from scratch to control all enemy behavior. The system is built on ScriptableObjects, allowing for new enemy types to be created without writing new code.
 
@@ -24,7 +24,7 @@ Implementation of a flexible, event-driven state machine from scratch to control
 
 ### Feature 2: Procedural Tilemap Generation
 
-https://github.com/user-attachments/assets/edbcedff-a1fd-4a14-a5f7-22a39a34f742
+https://github.com/user-attachments/assets/06625483-e027-4e28-9588-f9b267a9677b
 
 To create large, varied levels, I wrote a MapGenerator script that procedurally builds the game world from multiple tilemap layers and populates it with prefabs.
 
@@ -38,7 +38,8 @@ To create large, varied levels, I wrote a MapGenerator script that procedurally 
 
 ### Feature 3: Core Game Architecture (The "Game Initiator")
 
-<img width="979" height="598" alt="image" src="https://github.com/user-attachments/assets/4819ddfc-ed71-4b01-a6d1-8d93cb8b8283" />
+<img width="979" height="598" alt="Screenshot 2025-11-02 175626" src="https://github.com/user-attachments/assets/1894d66f-cba1-499b-bad9-9971a201ddc4" />
+
 
 Engineered the game's startup and scene-loading logic. I created a persistent _GameInitiator scene that acts as the entry point for the entire application, ensuring all managers and systems are loaded before the player ever sees the menu.
 
