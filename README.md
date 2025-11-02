@@ -1,7 +1,7 @@
 # Hello! I'm Rimvydas Medimas
 
-I am a 4th-year game development student graduating in a year with a passion for building core game systems. I specialize in **Unity/C#** and have a strong foundational understanding of low-level C++ development.
-I am currently seeking junior/entry-level programmer roles to test myself in a professional working environment.
+I am a 4th-year game development student, graduating in 2026. I have practical experience with C# and C++ from several small projects built during my studies.
+I am currently developing an indie game in Unity, where my work focuses on game mechanics, system architecture, and basic physics. I am actively seeking a junior programmer role to contribute my skills and grow within a professional team.
 
 **Email** `rimedimas@gmail.com`   [**Notion**](https://little-thrill-5ca.notion.site/231a5aa5b0b28027a5d4c9ae9778014c)
 
