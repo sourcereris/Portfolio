@@ -3,7 +3,7 @@
 I am a 4th-year game development student graduating in a year with a passion for building core game systems. I specialize in **Unity/C#** and have a strong foundational understanding of low-level C++ development.
 I am currently seeking junior/entry-level programmer roles to test myself in a professional working environment.
 
-* **Links:** `rimedimas@gmail.com` [Notion](https://little-thrill-5ca.notion.site/231a5aa5b0b28027a5d4c9ae9778014c)
+* **Email** `rimedimas@gmail.com` [**Notion**](https://little-thrill-5ca.notion.site/231a5aa5b0b28027a5d4c9ae9778014c)
 
 ---
 
