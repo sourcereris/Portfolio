@@ -14,7 +14,7 @@ Here are the main projects I am most proud of.
 ### 1. Toris - 2D Action RPG (Unity / C#)
 **Role:** Gameplay & Systems Programmer
 
-![Untitledvideo-MadewithClipchamp31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/525c979b-a27b-4f39-ab39-a83cb75873a9)
+![Untitledvideo-MadewithClipchamp31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d5fb53a8-0968-47c1-b81e-cdfd20acb69a)
 
 This is my 4th-year graduation project, a 2D action RPG. As the primary systems programmer, I was responsible for designing and implementing the core architecture for gameplay.
 
@@ -33,7 +33,7 @@ My main contributions include:
 ### 2. WinAPI Central Defender (C++ / WinAPI)
 **Role:** Sole Developer
 
-https://github.com/user-attachments/assets/b187dbda-cbef-4de0-8690-9db38d2fd68a
+https://github.com/user-attachments/assets/a5a89407-ed81-4cf2-93d1-c43879a7e8ea
 
 This is a complete 2D arcade shooter built from the ground up in C++ **without using any game engine**. The goal was to prove my understanding of low-level game architecture.
 
