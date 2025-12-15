@@ -11,7 +11,7 @@ I am currently developing an indie game in Unity together with a classmate, wher
 
 Here are the main projects I am most proud of.
 
-### 1. Toris - 2D Action RPG (Unity / C#)
+### 1. Outland Haven - 2D Action RPG (Unity / C#)
 **Role:** Gameplay & Systems Programmer
 
 ![Untitledvideo-MadewithClipchamp31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d5fb53a8-0968-47c1-b81e-cdfd20acb69a)
