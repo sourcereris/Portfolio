@@ -23,7 +23,7 @@ I designed and implemented a robust, strictly decoupled inventory system capable
 
 ### 2. Scalable UI Toolkit Architecture
 
-![Insert GIF/Video of UI Toolkit Interactions & Drag-and-Drop Here]()
+![Inventory](https://github.com/user-attachments/assets/5a6f6c6c-489f-47ba-bb38-e299c3786e93)
 
 To support the game's complex hub interfaces (Smithing, Magic, Crafting, Salvaging), I built a flexible UI framework utilizing Unity's modern UI Toolkit.
 
