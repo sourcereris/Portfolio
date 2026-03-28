@@ -1,52 +1,44 @@
-# Outland Haven - 2D Action RPG
+# Outland Haven - 2D Action RPG & Survival Management
 
-Outland Haven is a 2D action RPG, my 4th-year graduation project. As the sole systems programmer, I implemented the scalable enemy AI state machine, the procedural tilemap generation system, and the core game architecture. *(Game and all the systems are not finished)*
+**Outland Haven** is a 2D isometric survival and resource management game blending Action RPG and Rogue-Lite elements. My 4th-year graduation project, it features a compelling "Hub-and-Expedition" gameplay loop, contrasting the safety of a Town hub with the unpredictable danger of the Overworld. *(The game and all systems are currently in active development)*
 
-**You can find the Source Code on GitHub** - https://github.com/thameeeh/Toris.git
+**Source Code on GitHub** - [https://github.com/thameeeh/Toris.git](https://github.com/thameeeh/Toris.git)
 
-## My contribution to this game
+As the lead systems programmer for the game's core interactive systems, I completely re-architected the UI and Item management foundations. My focus has been on building highly scalable, decoupled, and event-driven architectures that support complex interactions like crafting, cross-container inventory transfers, and dynamic item states.
 
-### Feature 1: Scalable Enemy AI State Machine
+---
 
-https://github.com/user-attachments/assets/59c5ad6a-3aa6-4112-9ff3-8277883c5c42
+## Core Technical Contributions
 
-Implementation of a flexible, event-driven state machine from scratch to control all enemy behavior. The system is built on ScriptableObjects, allowing for new enemy types to be created without writing new code.
+### 1. Event-Driven Inventory & Dynamic Item Architecture
 
-- Technical Details:
+![Insert GIF/Video of Inventory Interactions Here]()
 
-    - Architected the core EnemyStateMachine and EnemyState base classes.
+I designed and implemented a robust, strictly decoupled inventory system capable of handling complex item states (like durability) without cluttering the core data structures.
 
-    - Used ScriptableObjects to define specific behaviors like Idle, Chase, and Attack, which can be mixed and matched (e.g., WolfIdleSO, WolfChaseSO, WolfAttackSO).
+* **Dynamic State Generation:** Utilized the `[SerializeReference]` attribute to allow an `ItemInstance` to store polymorphic `ItemComponentState` objects dynamically at runtime. This factory-driven approach ensures that hardcoded properties (e.g., durability, item level) are decoupled from the stateless `InventoryItemSO` blueprints.
+* **Stateless Managers:** Created `InventoryManager` MonoBehaviours that strictly use `InventoryContainerSO` assets as blueprints, ensuring flexible instantiation for player, NPC, and chest inventories.
+* **Centralized Transfer Arbitration:** Developed the `InventoryTransferManagerSO` to impartially assess rules and handle cross-container item transfers and partial-stack merges. This global arbitrator prevents direct coupling between separate `InventoryManager` instances.
+* **Data-Driven Event Flow:** Implemented an event-driven flow (`UIInventoryEventsSO`) where UI interactions do not mutate state directly; instead, they fire global requests that the `InventoryManager` validates before broadcasting state updates to listeners.
 
-    - Implemented sensor logic (EnemyAggroCheck) to detect the player and trigger state transitions (e.g., from Idle to Chase).
+### 2. Scalable UI Toolkit Architecture
 
-    - Created distinct enemy types, like the Wolf (a direct melee attacker) and the Badger (a "burrowing" enemy with unique Burrow and Unburrow states).
+![Insert GIF/Video of UI Toolkit Interactions & Drag-and-Drop Here]()
 
-### Feature 2: Procedural Tilemap Generation
+To support the game's complex hub interfaces (Smithing, Magic, Crafting, Salvaging), I built a flexible UI framework utilizing Unity's modern UI Toolkit.
 
-https://github.com/user-attachments/assets/06625483-e027-4e28-9588-f9b267a9677b
+* **Model-View-Presenter (MVP) Pattern:** Architected complex UI interactions, such as crafting and salvaging, using the MVP pattern. Logic (e.g., requirement validation against player inventory) is strictly maintained in Manager/Presenter classes (like `CraftingManagerSO`), preventing the UI Views from holding any game state.
+* **Zone-Based Mutual Exclusivity:** Developed a custom `UIManager` that enforces view exclusivity based on `ScreenZone` regions (e.g., opening the Smith view automatically closes other main-zone views, while the HUD remains untouched).
+* **Advanced Drag-and-Drop Implementation:** Engineered a seamless UI drag-and-drop system. To prevent clipping, I implemented a `UIDragManager` that instantiates a temporary "ghost" icon within a dedicated `#Drag_Layer` at the root of the UI document, maintaining proper standard click functionality via pointer drag thresholds.
+* **BEM Methodology & Templating:** Applied strict BEM (Block__Element--Modifier) naming conventions to all UXML and USS definitions to prevent C# query collisions. Leveraged dynamic templating for repeating elements (like grid slots) instead of hardcoding UI instances.
 
-To create large, varied levels, I wrote a MapGenerator script that procedurally builds the game world from multiple tilemap layers and populates it with prefabs.
+### 3. Professional Engineering Practices
 
-- Technical Details:
+![Insert Screenshot of Documentation or Test Runner Here]()
 
-    - Developed a MapGenerator that reads noise data to place ground, wall, and water tiles automatically.
+Beyond feature implementation, I established rigorous development standards to ensure the project remains maintainable and bug-free as it scales.
 
-    - The system intelligently places different tile types on separate, sorted Tilemap layers (e.g., "Ground," "Walls," "Decorations") for correct 2D rendering.
-
-    - The generator also handles programmatic spawning of resources (like trees and rocks) and enemies across the map.
-
-### Feature 3: Core Game Architecture (The "Game Initiator")
-
-<img width="979" height="598" alt="Screenshot 2025-11-02 175626" src="https://github.com/user-attachments/assets/1894d66f-cba1-499b-bad9-9971a201ddc4" />
-
-
-Engineered the game's startup and scene-loading logic. I created a persistent _GameInitiator scene that acts as the entry point for the entire application, ensuring all managers and systems are loaded before the player ever sees the menu.
-
-- Technical Details:
-
-    - The GameInitiator script is the first thing loaded and is marked DontDestroyOnLoad to persist across all scenes.
-
-    - It is responsible for instantiating all essential managers (like SceneLoader and AudioManager).
-
-    - This pattern ensures that no scene depends on another scene's managers, making the project scalable and preventing common dependency errors. It also manages the flow from the main menu into the first level.
+* **Unit Testing Pipeline:** Integrated NUnit testing for both logic and ScriptableObjects (`PlayerDataSO`, pooling managers), using reflection to isolate MonoBehaviour behaviors and verify internal states without requiring a full Unity runtime setup.
+* **Custom Editor Tooling:** Wrote custom Editor scripts (e.g., `InventoryItemSOEditor`) to bypass Unity inspector limitations. These tools provide Generic Menus via Reflection, allowing designers to easily select and instantiate concrete subclasses into abstract `[SerializeReference]` lists.
+* **Architectural Documentation:** Maintained comprehensive Markdown documentation (e.g., `script dependency documentation.md`, `Inventory_Event_System_Documentation.md`), utilizing sequential dependency chains to clearly map core UI, event flow, and system manager architectures for the team.
+* **Strict Namespace Organization:** Enforced rigid codebase boundaries (e.g., `OutlandHaven.UIToolkit`, `OutlandHaven.Inventory`) to prevent spaghetti code and ensure developers consciously declare dependencies across system domains.
