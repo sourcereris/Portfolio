@@ -14,7 +14,7 @@ Here are the main projects I am most proud of.
 ### 1. Outland Haven - 2D Action RPG (Unity / C#)
 **Role:** Gameplay & Systems Programmer
 
-![Untitledvideo-MadewithClipchamp31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d5fb53a8-0968-47c1-b81e-cdfd20acb69a)
+![Inventory](https://github.com/user-attachments/assets/1799c0c0-9c5d-49cf-b2b6-4a0f15e981f2)
 
 This is my 4th-year graduation project, a 2D action RPG. As the primary systems programmer, I was responsible for designing and implementing the core architecture for gameplay.
 
