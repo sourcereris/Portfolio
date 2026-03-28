@@ -18,15 +18,15 @@ Here are the main projects I am most proud of.
 
 This is my 4th-year graduation project, a 2D action RPG. 
 
-Main Contributions: UI & Inventory Systems
+**Main Contributions:** UI & Inventory Systems
 
-MVP Architecture: Engineered a strict Model-View-Presenter pattern to decouple UI visuals from core game logic, ensuring a modular and testable interface.
+**MVP Architecture:** Engineered a strict Model-View-Presenter pattern to decouple UI visuals from core game logic, ensuring a modular and testable interface.
 
-Data-Driven Inventory: Architected a scalable inventory and crafting system using ScriptableObjects (Flyweight pattern) for memory-efficient item management and rapid content expansion.
+**Data-Driven Inventory:** Architected a scalable inventory and crafting system using ScriptableObjects (Flyweight pattern) for memory-efficient item management and rapid content expansion.
 
-Event-Driven Synchronization: Utilized an Event Bus and Observer patterns to handle real-time communication between the player's stash and the UI, eliminating hard dependencies.
+**Event-Driven Synchronization:** Utilized an Event Bus and Observer patterns to handle real-time communication between the player's stash and the UI, eliminating hard dependencies.
 
-Modular Resource Logic: Implemented the game’s four-resource economy using Composition over Inheritance, allowing for flexible transaction logic across the Smithy, Farm, and Gear Enhancer systems.
+**Modular Resource Logic:** Implemented the game’s four-resource economy using Composition over Inheritance, allowing for flexible transaction logic across the Smithy, Farm, and Gear Enhancer systems.
 
 **[View the Full Project Page & Technical Overwiev](https://github.com/sourcereris/Portfolio/tree/main/Main%20Works/Unity)**
 
