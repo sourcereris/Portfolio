@@ -2,6 +2,9 @@
 
 Polygon Ninja is a 2D physics engine game inspired by Fruit Ninja, built from scratch in C++ using WinAPI and GDI+. This project focuses heavily on custom math, physics mechanics, and rendering optimizations.
 
+
+![PolygonNinja](https://github.com/user-attachments/assets/f8a2ec5c-fc45-4d96-ba4e-53cb61a478be)
+
 ## Core Mechanics & Mathematics
 
 ### Slicing Logic
