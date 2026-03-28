@@ -12,7 +12,7 @@ As the lead systems programmer for the game's core interactive systems, I comple
 
 ### 1. Event-Driven Inventory & Dynamic Item Architecture
 
-![Insert GIF/Video of Inventory Interactions Here]()
+<img width="675" height="728" alt="Screenshot 2026-03-28 134231" src="https://github.com/user-attachments/assets/55edda54-81ba-4106-b9af-c829c0bfa9f2" />
 
 I designed and implemented a robust, strictly decoupled inventory system capable of handling complex item states (like durability) without cluttering the core data structures.
 
