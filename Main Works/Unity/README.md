@@ -36,11 +36,11 @@ To support the game's complex hub interfaces (Smithing, Magic, Crafting, Salvagi
 
 ### 3. Professional Engineering Practices
 
-<img width="866" height="463" alt="Screenshot 2026-03-28 151357" src="https://github.com/user-attachments/assets/19224c6e-4650-44b0-9551-b8b00c767869" />
-
 Beyond feature implementation, I established rigorous development standards to ensure the project remains maintainable and bug-free as it scales.
 
 * **Unit Testing Pipeline:** Integrated NUnit testing for both logic and ScriptableObjects (`PlayerDataSO`, pooling managers), using reflection to isolate MonoBehaviour behaviors and verify internal states without requiring a full Unity runtime setup.
 * **Custom Editor Tooling:** Wrote custom Editor scripts (e.g., `InventoryItemSOEditor`) to bypass Unity inspector limitations. These tools provide Generic Menus via Reflection, allowing designers to easily select and instantiate concrete subclasses into abstract `[SerializeReference]` lists.
 * **Architectural Documentation:** Maintained comprehensive Markdown documentation (e.g., `script dependency documentation.md`, `Inventory_Event_System_Documentation.md`), utilizing sequential dependency chains to clearly map core UI, event flow, and system manager architectures for the team.
 * **Strict Namespace Organization:** Enforced rigid codebase boundaries (e.g., `OutlandHaven.UIToolkit`, `OutlandHaven.Inventory`) to prevent spaghetti code and ensure developers consciously declare dependencies across system domains.
+
+<img width="866" height="463" alt="Screenshot 2026-03-28 151357" src="https://github.com/user-attachments/assets/19224c6e-4650-44b0-9551-b8b00c767869" />
