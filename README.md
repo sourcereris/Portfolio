@@ -16,13 +16,17 @@ Here are the main projects I am most proud of.
 
 ![Inventory](https://github.com/user-attachments/assets/1799c0c0-9c5d-49cf-b2b6-4a0f15e981f2)
 
-This is my 4th-year graduation project, a 2D action RPG. As the primary systems programmer, I was responsible for designing and implementing the core architecture for gameplay.
+This is my 4th-year graduation project, a 2D action RPG. 
 
-My main contributions include:
+Main Contributions: UI & Inventory Systems
 
-* **Scalable Enemy AI:** I built a flexible, event-driven **state machine** using ScriptableObjects. This allows for new, complex enemy types (like the melee "Wolf" or the "Badger" with its unique burrow/unburrow states) to be created without writing new code.
-* **Procedural Tilemap Generation:** I developed the `MapGenerator` script, which procedurally builds the game world from multiple, sorted `Tilemap` layers. This system also handles the dynamic spawning of enemies and resources.
-* **Core Game Architecture:** I implemented the **`GameInitiator`** system, a persistent entry point that loads and manages all core systems (like the `SceneLoader` and `AudioManager`) to ensure they persist correctly across all scenes and prevent dependency errors.
+    MVP Architecture: Engineered a strict Model-View-Presenter pattern to decouple UI visuals from core game logic, ensuring a modular and testable interface.
+
+    Data-Driven Inventory: Architected a scalable inventory and crafting system using ScriptableObjects (Flyweight pattern) for memory-efficient item management and rapid content expansion.
+
+    Event-Driven Synchronization: Utilized an Event Bus and Observer patterns to handle real-time communication between the player's stash and the UI, eliminating hard dependencies.
+
+    Modular Resource Logic: Implemented the game’s four-resource economy using Composition over Inheritance, allowing for flexible transaction logic across the Smithy, Farm, and Gear Enhancer systems.
 
 **[View the Full Project Page & Technical Overwiev](https://github.com/sourcereris/Portfolio/tree/main/Main%20Works/Unity)**
 
