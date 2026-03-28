@@ -36,7 +36,7 @@ To support the game's complex hub interfaces (Smithing, Magic, Crafting, Salvagi
 
 ### 3. Professional Engineering Practices
 
-<img width="945" height="1011" alt="image" src="https://github.com/user-attachments/assets/96a3fd16-e2e7-43bf-9a75-65df6873aa7a" />
+<img width="866" height="463" alt="Screenshot 2026-03-28 151357" src="https://github.com/user-attachments/assets/19224c6e-4650-44b0-9551-b8b00c767869" />
 
 Beyond feature implementation, I established rigorous development standards to ensure the project remains maintainable and bug-free as it scales.
 
