@@ -6,7 +6,7 @@
 - External files include header files for PerlinNoise, used in one of the projects.
 - The Grass file generates an image: a random four-color pixel gradient that’s used in the TileGrid project.
 
-https://github.com/user-attachments/assets/f3b378a5-f2a6-407e-8ff3-0e5977beb0a9
+[![Grass demo](media/grass.gif)](media/grass.mp4)
 
 ### TileGrid
 
@@ -14,7 +14,7 @@ This project procedurally generates ground using Perlin noise and the image crea
 
 - **Short Video**:
 
-https://github.com/user-attachments/assets/6093c0e9-48f7-4dae-a852-011ad803569d
+[![TileGrid demo](media/tilegrid.gif)](media/tilegrid.mp4)
 
 ## RaylibLittleProjects
 
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/6093c0e9-48f7-4dae-a852-011ad803569d
 
 - **Short Video**:  
 
-https://github.com/user-attachments/assets/0a070fa4-fb0b-4471-826f-c16a2775eba5
+[![Clock demo](media/clock.gif)](media/clock.mp4)
 
 A simple geometric implementation representing a mechanical clock, using 2D rotation and transformation.
 
@@ -30,7 +30,7 @@ A simple geometric implementation representing a mechanical clock, using 2D rota
 
 - **Short Video**:  
 
-https://github.com/user-attachments/assets/8a33c429-7a53-4664-ac44-24a3ae5cdc95
+[![Gravity_Sim demo](media/gravity-sim.gif)](media/gravity-sim.mp4)
 
 A program that simulates gravity for objects placed around a central point.
 
@@ -38,7 +38,7 @@ A program that simulates gravity for objects placed around a central point.
 
 - **Short Video**:
 - 
-https://github.com/user-attachments/assets/efef6ca2-c0a8-494c-9809-81c8e666e930
+[![Hexagons demo](media/hexagons.gif)](media/hexagons.mp4)
 
 Hexagons are arranged in a perfect grid; the size can be changed in real time.
 
@@ -46,7 +46,7 @@ Hexagons are arranged in a perfect grid; the size can be changed in real time.
 
 - **Short Video**:
 - 
-https://github.com/user-attachments/assets/2d48d00b-c080-4b2a-bd1f-f5c88e06e46a
+[![IdleBallClicker demo](media/idle-ball-clicker.gif)](media/idle-ball-clicker.mp4)
 
 A simple idle game simulation: each time the ball touches the boundary, the score increases. A single button displays the ball price and adds another ball to the game.
 
@@ -54,7 +54,7 @@ A simple idle game simulation: each time the ball touches the boundary, the scor
 
 - **Short Video**:  
 
-https://github.com/user-attachments/assets/b6d1de8b-0819-4e24-813c-09ee0fbf9231
+[![Raylib-Spin demo](media/raylib-spin.gif)](media/raylib-spin.mp4)
 
 Random balls spawn and spin around a center point, gradually changing color and disappearing as they reach the center.
 
@@ -62,7 +62,7 @@ Random balls spawn and spin around a center point, gradually changing color and 
 
 - **Short Video**:
 - 
-https://github.com/user-attachments/assets/e0dd4cd5-e52f-4630-bc5a-0ed0784b2125
+[![Simple_3D_Cube demo](media/simple-3d-cube.gif)](media/simple-3d-cube.mp4)
 
 This program draws a 3D cube representation that can be rotated in real time.
 
@@ -70,6 +70,6 @@ This program draws a 3D cube representation that can be rotated in real time.
 
 - **Short Video**:
 
-https://github.com/user-attachments/assets/8237ec4b-1262-44dc-8f41-1d8789132f19
+[![Torus 3D demo](media/torus-3d.gif)](media/torus-3d.mp4)
 
 A 3D torus projection using a mesh .txt file. The projection can be rotated using the J, K, and L keys.
