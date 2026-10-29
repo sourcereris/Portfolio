@@ -35,7 +35,7 @@ This is my 4th-year graduation project, a 2D action RPG.
 ### 2. WinAPI Central Defender (C++ / WinAPI)
 **Role:** Sole Developer
 
-https://github.com/user-attachments/assets/a5a89407-ed81-4cf2-93d1-c43879a7e8ea
+https://youtu.be/IP-llpkr3s4?si=EKT5OCjchHsc7kbS
 
 This is a complete 2D arcade shooter built from the ground up in C++ **without using any game engine**. The goal was to prove my understanding of low-level game architecture.
 
