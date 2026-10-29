@@ -23,7 +23,7 @@ I designed and implemented a robust, strictly decoupled inventory system capable
 
 ### 2. Scalable UI Toolkit Architecture
 
-![Inventory](https://github.com/user-attachments/assets/5a6f6c6c-489f-47ba-bb38-e299c3786e93)
+![Inventory](media/inventory.gif)
 
 To support the game's complex hub interfaces (Smithing, Magic, Crafting, Salvaging), I built a flexible UI framework utilizing Unity's modern UI Toolkit.
 
@@ -32,7 +32,7 @@ To support the game's complex hub interfaces (Smithing, Magic, Crafting, Salvagi
 * **Advanced Drag-and-Drop Implementation:** Engineered a seamless UI drag-and-drop system. To prevent clipping, I implemented a `UIDragManager` that instantiates a temporary "ghost" icon within a dedicated `#Drag_Layer` at the root of the UI document, maintaining proper standard click functionality via pointer drag thresholds.
 * **BEM Methodology & Templating:** Applied strict BEM (Block__Element--Modifier) naming conventions to all UXML and USS definitions to prevent C# query collisions. Leveraged dynamic templating for repeating elements (like grid slots) instead of hardcoding UI instances.
 
-![InventorySalvage](https://github.com/user-attachments/assets/a6e18866-a532-493e-a24c-2c43886835a1)
+![InventorySalvage](media/inventory-salvage.gif)
 
 ### 3. Professional Engineering Practices
 
