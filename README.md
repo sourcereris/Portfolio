@@ -14,7 +14,7 @@ Here are the main projects I am most proud of.
 ### 1. Outland Haven - 2D Action RPG (Unity / C#)
 **Role:** Gameplay & Systems Programmer
 
-![Inventory](https://github.com/user-attachments/assets/1799c0c0-9c5d-49cf-b2b6-4a0f15e981f2)
+https://youtu.be/YrOQ10kQbRk?si=TzaVtHed9dxPuQTt
 
 This is my 4th-year graduation project, a 2D action RPG. 
 
@@ -27,8 +27,6 @@ This is my 4th-year graduation project, a 2D action RPG.
 **Event-Driven Synchronization:** Utilized an Event Bus and Observer patterns to handle real-time communication between the player's stash and the UI, eliminating hard dependencies.
 
 **Modular Resource Logic:** Implemented the game’s four-resource economy using Composition over Inheritance, allowing for flexible transaction logic across the Smithy, Farm, and Gear Enhancer systems.
-
-**[View the Full Project Page & Technical Overwiev](https://github.com/sourcereris/Portfolio/tree/main/Main%20Works/Unity)**
 
 **[View the Source Code on GitHub](https://github.com/thameeeh/Toris/tree/main)**
 
